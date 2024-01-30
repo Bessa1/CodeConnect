@@ -1,6 +1,6 @@
 {
   "name": "codeconnet",
-  "homepage": "https://Bessa1.github.io/codeconnet/",
+  "homepage": "https://bessa1.github.io/codeconnect",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,10 +9,8 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "predeplopy": "npm run build",
     "deploy": "gh-pages -d dist"
-
-
   },
   "dependencies": {
     "react": "^18.2.0",
